@@ -3,6 +3,11 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .livros-ul{ 
     list-style: none; 
     padding-left: 5px; 
@@ -11,6 +16,9 @@ body, html {
     padding-bottom: 5px; 
 }
 a { color:blue; text-decoration: none;}
+a:hover {
+    color:rgb(100, 100, 226); text-decoration: none;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -35,11 +43,11 @@ a { color:blue; text-decoration: none;}
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
-.anchors {
+.tittles {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
-.sidebar {
+.left {
     border-right: solid 1px #cdcdcd;
 }
 figure {
@@ -59,4 +67,19 @@ margin-bottom: 5px;
 }
 .coments-photo img{
     height: 300px;
+}
+
+.anchors {
+    font-size: 18px;
+
+}
+footer{
+    background-color: #948e8e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: #000 1px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
